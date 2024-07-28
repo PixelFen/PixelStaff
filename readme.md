@@ -1,7 +1,8 @@
 # PixelStaff
 A plugin to handle all of your staff needs.
 
-![Static Badge](https://img.shields.io/badge/Release-1.0.0b?labelColor=red)
+![Version Badge](https://img.shields.io/badge/Release-1.0.0b-red)
+
 
 
 What do we got?
