@@ -1,0 +1,19 @@
+name: PixelStaff
+version: '1.0.0-b'
+main: org.pixeldev.pixelStaff.PixelStaff
+description: A plugin that lets you do all the mod stuff for free.
+author: PixelFen
+api-version: '1.20'
+commands:
+  clientcheck:
+    description: Gets yours or a player's client and mc version.
+    usage: /clientcheck
+  testban:
+    usage: /testban
+  staffreload:
+    usage: /staffreload
+
+permissions:
+  pixelstaff.client:
+    description: "Allows usage of the /getclient command."
+

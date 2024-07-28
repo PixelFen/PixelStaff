@@ -1,0 +1,72 @@
+############################################
+# PixelStaff - Staff stuff for your server #
+############################################
+
+# DO NOT EDIT THIS LINE. DOING SO MAY BREAK YOUR CONFIG!
+configversion: 1
+
+# The prefix that'll display among commands.
+# Set it to '' to not use a prefix.
+prefix: '&c&lPixelStaff >'
+
+#########################################################
+# How we should store the info like bans and things.    #
+# Storage types:                                        #
+# - yaml: .yml file for storage.                        #
+# - sqlite: Use of SQLite database                      #
+# - sql: Use of a database like MySQL, MariaDB, etc.    #
+#########################################################
+
+storage_type: yaml
+
+#########################################################
+# Info for SQL storage.                                 #
+#                                                       #
+# host - the address for your SQL server                #
+# port - the port your SQL server is hosted on          #
+# username - The username for your SQL server           #
+# password - The password for the SQL server            #
+# database - The database to use                        #
+#                                                       #
+# Uncomment this if you set your storage_type to sql!   #
+#########################################################
+
+#sql:
+#  host: 0.0.0.0
+#  port: 3066
+#  username: root
+#  password: password
+#  database: server
+
+
+#########################################################
+# Formatting for chat and disconnection messages.       #
+#                                                       #
+# disconnect:                                           #
+#  - universal: A universal disconnect message. Used    #
+#    when the other formats are invalid or set to ''    #
+#                                                       #
+#  - tempuserban: The format for a user's tempban.      #
+#  - userban: The format for a user's permanent ban.    #
+#  - tempipban: The format for a user's IP ban.         #
+#  - ipban: The format for a user's permanent IP ban.   #
+#                                                       #
+#  Setting the formats for ones like userban to ''      #
+#   will make that format use the universal one.        #
+#  If the universal format is invalid or broken, the    #
+#   format it will use will always be the default ban   #
+#   message until you fix it.
+#########################################################
+
+
+formats:
+  disconnect:
+    universal: |-
+      {{prefix}} &cYou have been {{punishment}} from the server.
+      &cReason: &6{{reason}}
+      &cTime: &6{{duration}}
+
+    tempuserban: ''
+    userban: ''
+    tempipban: ''
+    ipban: ''
