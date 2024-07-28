@@ -1,5 +1,7 @@
 # PixelStaff
 A plugin to handle all of your staff needs.
+![Static Badge](https://img.shields.io/badge/Release-1.0.0b?style=flat-square&labelColor=red)
+
 
 What do we got?
 Well.. take a look at our
@@ -12,4 +14,6 @@ Well.. take a look at our
 
 ## Notes
 I'm kinda new to Java programming, so my code may not be perfect, but I am going to make it work to the best of my abilities!
+Have an issue with the plugin? Be sure to create an issue on the issues tab.
 
+This plugin is mainly created for the GalacticMC server (in progress) but I figured I'd release it for everyone to use.
